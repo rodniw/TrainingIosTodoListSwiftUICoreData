@@ -14,6 +14,7 @@
 		14A1171E24C8EF7300741DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A1171D24C8EF7300741DED /* Assets.xcassets */; };
 		14A1172124C8EF7300741DED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A1172024C8EF7300741DED /* Preview Assets.xcassets */; };
 		14A1172424C8EF7300741DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14A1172224C8EF7300741DED /* LaunchScreen.storyboard */; };
+		14A1172C24C8EFD600741DED /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14A1172B24C8EFD600741DED /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		14A1172024C8EF7300741DED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		14A1172324C8EF7300741DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14A1172524C8EF7300741DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14A1172B24C8EFD600741DED /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				14A1172524C8EF7300741DED /* Info.plist */,
 				14A1171824C8EF7200741DED /* TrainingIosTodoListSwiftUICoreData.xcdatamodeld */,
 				14A1171F24C8EF7300741DED /* Preview Content */,
+				14A1172B24C8EFD600741DED /* ToDoItem.swift */,
 			);
 			path = TrainingIosTodoListSwiftUICoreData;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				14A1171A24C8EF7200741DED /* TrainingIosTodoListSwiftUICoreData.xcdatamodeld in Sources */,
 				14A1171524C8EF7200741DED /* AppDelegate.swift in Sources */,
+				14A1172C24C8EFD600741DED /* ToDoItem.swift in Sources */,
 				14A1171C24C8EF7200741DED /* ContentView.swift in Sources */,
 				14A1171724C8EF7200741DED /* SceneDelegate.swift in Sources */,
 			);
